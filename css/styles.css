@@ -109,11 +109,13 @@ body {
         -webkit-font-smoothing: antialiased;
 }
 
+/* font import */
 @font-face {
   font-family: rustproof;
   src: url('/fonts/RUSTPROO.TTF');
 }
 
+/* background video setup */
 #bgvid{
   object-fit: cover;
   width: 100vw;
