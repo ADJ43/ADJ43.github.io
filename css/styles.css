@@ -1,0 +1,118 @@
+/*
+ * Globals
+ */
+
+ 
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: 1px 1px 2px pink; /* Prevent inheritance from `body` */
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 10px;
+  
+}
+/* custon buttons */
+
+.btn-super {
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+border-radius: 25px;
+border: 0;
+color: white;
+}
+
+.btn-super:hover {
+  background: linear-gradient(90deg, rgba(0,212,255,1) 100%, rgba(9,9,121,1) 35%, rgba(2,0,36,1) 0%);
+}
+
+
+/*
+ * Base structure 
+ */
+
+body {
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+
+.cover-container {
+  max-width: 60em;
+}
+
+
+/*
+ * Header
+ */
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+/* .header-color {
+  background: chartreuse;
+
+} */
+.grid-container {
+  height: 30rem;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 2rem;
+  grid-row-gap: 2rem;
+  padding: 5px;
+  border-radius: 10px;
+}
+.grid-item {
+  background-color: 	#161c2d94;
+  border: 1px solid 	#161c2d8f;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.card-title {
+  color: black;
+}
+
+.card-text {
+  color: gray;
+}
+
+.title-class {
+  font-family: "rustproof";
+}
+
+@font-face {
+  font-family: rustproof;
+  src: url('/fonts/RUSTPROO.TTF');
+}
+
+#bgvid{
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index:-1;
+ }
