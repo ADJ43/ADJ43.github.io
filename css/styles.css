@@ -32,10 +32,10 @@ color: white;
  * Base structure 
  */
 
-body {
+/* body {
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
-}
+} */
 
 .cover-container {
   max-width: 60em;
@@ -124,4 +124,8 @@ body {
   top: 0;
   left: 0;
   z-index:-1;
+ }
+
+ #picture {
+   border-radius: 40px;
  }
