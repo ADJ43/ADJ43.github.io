@@ -99,16 +99,18 @@ color: white;
 }
 
 .title-class {
-  font-family: "paraline";
+  font-family: "lazer";
   text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.35);
   font-size: 3rem;
-  background-image: url("/images/gradient.gif"); 
+  background-image: radial-gradient( circle farthest-corner at 6.9% 15%,  rgba(198,255,221,1) 0%, rgba(255,226,89,1) 40.9%, rgba(255,167,81,1) 59.7%, rgba(247,121,125,1) 90.1% );
    background-position: center;
         background-repeat: repeat;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         -webkit-font-smoothing: antialiased;
 }
+
+
 
 /* font import */
 @font-face {
@@ -120,6 +122,12 @@ color: white;
 @font-face {
   font-family: paraline;
   src: url('/fonts/Paralines-Regular.otf');
+}
+
+/* font import */
+@font-face {
+  font-family: lazer;
+  src: url('/fonts/Lazer84.ttf');
 }
 
 /* background video setup */
